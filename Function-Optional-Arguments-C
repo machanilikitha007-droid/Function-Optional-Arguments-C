@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void displayDetails(char name[], int age)
+{
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+}
+
+int main()
+{
+    displayDetails("Likitha", 20);
+
+    return 0;
+}
